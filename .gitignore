@@ -1,0 +1,22 @@
+# Kernel build artifacts
+*.o
+*.ko
+*.mod
+*.mod.c
+*.mod.o
+*.symvers
+*.order
+*.cmd
+
+# Kbuild output
+Module.symvers
+modules.order
+
+# Kernel module signing
+*.p7
+*.pem
+*.key
+
+# Build directory
+.build/
+.zig-cache
