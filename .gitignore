@@ -20,3 +20,5 @@ modules.order
 # Build directory
 .build/
 .zig-cache
+
+notes/
